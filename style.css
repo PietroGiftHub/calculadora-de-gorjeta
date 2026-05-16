@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  --blue-100: #F0F7FF;
+  --blue-200: #D6E9FF;
+  --blue-300: #A7D1FF;
+  --blue-400: #78B5FF;
+  --blue-500: #4D9BFF;
+  --blue-600: #2F7BFF;
+  --blue-700: #1B5ED8;
+  --blue-800: #0D3BA8;
+  --light-blue: #00C2FF;
+  --white: #FFFFFF;
+}
+
+body {
+    background-color: var(--blue-200);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-block: 2.8rem;
+}
